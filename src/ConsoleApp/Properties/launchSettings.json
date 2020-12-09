@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"ADC 4.0 | Model Recipe C# 기능 1차 테스트 | Mask\" \"ADC 4.0 | Model Recipe C# 기능 2차 개발 | Mask\" \"ADC 4.0 | Model Recipe C# 기능 1차 테스트 | Wafer\" \"ADC 4.0 | Model Recipe C# 기능 1차 개발\""
+    }
+  }
+}

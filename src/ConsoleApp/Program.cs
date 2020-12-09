@@ -63,6 +63,10 @@ namespace ConsoleApp
                 var json = JsonSerializer.Serialize(create);
 
                 File.WriteAllText($"{validName}.json", json);
+
+                await Uploader.File($"{validName}.png", name);
+
+                
             }
         }
     }
