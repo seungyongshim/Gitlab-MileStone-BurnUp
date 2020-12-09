@@ -14,7 +14,7 @@ namespace ConsoleApp.Entity
     {
         public static MileStone Create(IssuesMilestoneResponse res, DateTime today)
         {
-            var createdAt = res.Group.Issues.Nodes.First().MileStone.CreatedAt.Date;
+            var createdAt = (res.Group.Issues.Nodes.First().MileStone.StartDate ?? res.Group.Issues.Nodes.First().MileStone.CreatedAt).Date;
             var dueDate = res.Group.Issues.Nodes.First().MileStone.DueDate ?? today;
             var issuesCreateAt = res.Group.Issues.Nodes.Select(x => x.CreatedAt.Date)
                                                        .ToList();

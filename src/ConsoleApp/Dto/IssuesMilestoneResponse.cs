@@ -27,6 +27,7 @@ namespace ConsoleApp
                     {
                         public string Id { get; init; }
                         public DateTime CreatedAt { get; init; }
+                        public DateTime? StartDate { get; init; }
                         public DateTime? DueDate { get; init; }
                     }
                 }

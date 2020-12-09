@@ -1,3 +1,4 @@
+// http://wish.mirero.co.kr/-/graphql-explorer
 namespace ConsoleApp
 {
     using System;
@@ -23,6 +24,7 @@ namespace ConsoleApp
                 closedAt
                 milestone {{
                   id
+                  startDate
                   createdAt
                   dueDate
                 }}
